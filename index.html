@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ToDo Tasks</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">ToDo приложение</div>
+      <div class="subtitle">Ваш список задач на сегодня</div>
+
+      <div class="card__top">
+        <ul id="tasksList" class="list__group">
+          <li id="emptyList" class="list-group-item empty-list">
+            <img src="./img/icon.svg" alt="Empty" width="65" class="img-icon" />
+            <div class="empty-list__title">Список дел пуст</div>
+          </li>
+
+          <!-- <li class="list-group-item list-group-item__two">
+            <span class="task__title">Убраться в комнате</span>
+            <div class="task-item__buttons">
+              <button type="button" data-action="done" class="btn-action">
+                <img class="img__icon" src="img/tick.svg" alt="tick" />
+              </button>
+              <button type="button" data-action="delete" class="btn-action">
+                <img class="img__icon" src="img/cross.svg" alt="cross" />
+              </button>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+
+      <div class="card__bottom">
+        <div class="card-header">Добавить новую задачу</div>
+        <div class="card-body">
+          <form id="form">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="taskInput"
+                placeholder="Напишите сюда задачу"
+                required
+              />
+            </div>
+            <button type="submit" class="btn">Добавить</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- <button id="removeDoneTasks" class="btn btn-secondary mt-4 float-right">Удалить выполненные задачи</button> -->
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
