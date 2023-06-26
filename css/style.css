@@ -117,8 +117,15 @@ body {
   background-color: #fff;
   color: #495ebd;
 }
+.btn-action img {
+  pointer-events: none; /*снимаем все события с данного элемента и клик проходит как бы сквозь картинку и попадает в кнопку*/
+}
 .none {
-  display: none !important;
+  display: none;
+}
+.task__title--done {
+  text-decoration: line-through;
+  color: #8f8b8b;
 }
 /* html, body {
   min-height: 100vh;
