@@ -24,18 +24,17 @@ body {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0px 10px;
+  padding: 45px 10px;
   text-align: center;
   margin-top: 30px;
 }
+
 .title {
-  font-size: 60px;
-  margin-bottom: 45px;
-}
-.subtitle {
   font-size: 30px;
 }
 .card__top {
+  border: 1px solid #413939;
+  border-radius: 30px;
   padding-top: 10px;
   background-color: #d1d1d1;
   padding-bottom: 10px;
@@ -73,6 +72,8 @@ body {
   border-radius: 4px;
   transition: opacity 0.2s ease-in;
   margin-right: 3px;
+  width: 35px;
+  height: 35px;
 }
 
 .btn-action:hover {
@@ -130,7 +131,10 @@ body {
   color: #8f8b8b;
 }
 .task__title {
-  hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  word-break: break-word;
   text-align: start;
 }
 .task-item__buttons {
@@ -138,9 +142,6 @@ body {
 }
 @media (max-width: 500px) {
   .title {
-    font-size: 40px;
-  }
-  .subtitle {
     font-size: 25px;
   }
   .empty-list__title {
