@@ -1,16 +1,17 @@
-# Список задач
+# Task list
 
-## Технологии
+## Tech stack:
 
 ![HTML5](https://img.shields.io/badge/-HTML5-e34f26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572b6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-f7df1e?logo=javaScript&logoColor=black)
 
 
-## Описание 
-1. Добавление новых задач в список по кнопке "Добавить" или нажатию клавиши - enter;
-2. При добавлении хоть одной задачи, происходит убирание блока "Список дел пуст";
-3. Задачи можно выделять как выполненные (будут перечеркнуты), также при повторном нажатии на галочку - задача станет невыполненной и вернет свой прежний вид;
-4. Задачи можно удалять при нажатии на кнопку с крестиком;
-5. Все задачи, которые не удалены, при перезагрузке страницы не будут стерты (тк происходит автоматическое сохранение в localStorage).
-## [Страница проекта на GitHubPages](https://ekaterinatet.github.io/todo_tasks/)
+## Description
+1. Adding new tasks to the list by clicking the "Add" button or pressing the enter key;
+2. When adding the first task, the “To-do list is empty” block is removed;
+3. Tasks can be marked as completed;
+4. Tasks can be deleted;
+5. All tasks will not be deleted when the page is reloaded (since they are automatically saved in localStorage).
+   
+## [Project page on GitHubPages](https://ekaterinatet.github.io/todo_tasks/)
