@@ -15,3 +15,6 @@
 5. All tasks will not be deleted when the page is reloaded (since they are automatically saved in localStorage).
    
 ## [Project page on GitHubPages](https://ekaterinatet.github.io/todo_tasks/)
+<p align="center">
+  <img width="500" height="350" src="https://github.com/EkaterinaTet/todo_tasks/blob/main/todo-tasks.png">
+</p>
